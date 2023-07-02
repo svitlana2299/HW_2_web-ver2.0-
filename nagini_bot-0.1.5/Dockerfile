@@ -7,6 +7,7 @@ WORKDIR $APP_HOME
 COPY . .
 
 RUN python --version
+RUN pipenv install --system --deploy
 RUN pip install pipenv
 
 EXPOSE 5000

@@ -1,0 +1,2 @@
+[console_scripts]
+nagini-bot = nagini_bot.main:start_bot
